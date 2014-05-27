@@ -1,0 +1,29 @@
+{
+  "name": "twbs-grid",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mvaldetaro/web-loader",
+  "authors": [
+    "Magno Valdetaro <mvaldetaro@gmail.com>"
+  ],
+  "description": "The Bootstrap Grid System Web Component",
+  "main": "src/twbs-grid.html",
+  "keywords": [
+    "web-components",
+    "grid",
+    "polymer",
+    "twitter bootstrap",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "platform": "Polymer/platform#~0.2.4",
+    "polymer": "Polymer/polymer#~0.2.4"
+  }
+}
