@@ -1,15 +1,15 @@
-* {
+    :host {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
     }
-    *:before,
-    *:after {
+    :host:before,
+    :host:after {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
     }
-    bs-container {
+    :host {
       display: block;
       margin-right: auto;
       margin-left: auto;
@@ -17,21 +17,21 @@
       padding-right: 15px;
     }
     @media (min-width: 768px) {
-      bs-container {
+      :host {
         width: 750px;
       }
     }
     @media (min-width: 992px) {
-      bs-container {
+      :host {
         width: 970px;
       }
     }
     @media (min-width: 1200px) {
-      bs-container {
+      :host {
         width: 1170px;
       }
     }
-    bs-container {
+    :host {
       margin-right: auto;
       margin-left: auto;
       padding-left: 15px;
