@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>&lt;web-loader&gt;</title>
+  <title>&lt;twbs-grid&gt;</title>
 
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
@@ -21,7 +21,7 @@
     header {
       background: #2ecc71;
       padding: 50px 0;
-      bs-color: #ffffff;
+      color: #ffffff;
     }
     .content {
       width: 80%;
@@ -39,7 +39,7 @@
       font: normal 14px/23px 'Roboto', sans-serif;
     }
     a {
-      bs-color: #4183c4;
+      color: #4183c4;
       text-decoration: none;
     }
     pre {
@@ -48,6 +48,13 @@
       background: #ecf0f1;
       border-radius: 5px;
       margin-bottom: 25px;
+    }
+    bs-col {
+      text-align: center;
+      background-color: rgba(86,61,124,.15);
+      border: 1px solid rgba(86,61,124,.2);
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
     footer {
       background: #ecf0f1;
@@ -77,7 +84,7 @@
     <bs-container>
       <bs-row>
         <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1" >bs-col md="1"</bs-col>
         <bs-col md="1">bs-col md="1"</bs-col>
         <bs-col md="1">bs-col md="1"</bs-col>
         <bs-col md="1">bs-col md="1"</bs-col>
@@ -104,6 +111,9 @@
       <bs-row>
         <bs-col md="6">bs-col md="6"</bs-col>
         <bs-col md="6">bs-col md="6"</bs-col>
+      </bs-row>
+      <bs-row>
+        <bs-col md="12">bs-col md="12"</bs-col>
       </bs-row>
     </bs-container>
 
@@ -139,6 +149,10 @@
       &lt;bs-row&gt;
         &lt;bs-col md="6"&gt;.bs-col-md-6&lt;/bs-col&gt;
         &lt;bs-col md="6"&gt;.bs-col-md-6&lt;/bs-col&gt;
+      &lt;bs-row&gt;
+
+      &lt;bs-row&gt;
+        &lt;bs-col md="12"&gt;.bs-col-md-12&lt;/bs-col&gt;
       &lt;bs-row&gt;
 
     </pre>
