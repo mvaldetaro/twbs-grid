@@ -2,19 +2,22 @@
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
     }
     :host(:before),
     :host(:after) {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
+      content: "";
+      display: table;
     }
-    :host {
-      display: block;
-      margin-right: auto;
-      margin-left: auto;
-      padding-left: 15px;
-      padding-right: 15px;
+    :host(:after) {
+      clear: both;
     }
     @media (min-width: 768px) {
       :host {
@@ -30,10 +33,4 @@
       :host {
         width: 1170px;
       }
-    }
-    :host {
-      margin-right: auto;
-      margin-left: auto;
-      padding-left: 15px;
-      padding-right: 15px;
     }

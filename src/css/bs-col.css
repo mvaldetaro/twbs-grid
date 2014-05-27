@@ -2,20 +2,17 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 :host(:before),
 :host(:after) {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-:host{
-  display: block;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 :host([xs="1"]), :host([xs="2"]), :host([xs="3"]), :host([xs="4"]), :host([xs="5"]), :host([xs="6"]), :host([xs="7"]), :host([xs="8"]), :host([xs="9"]), :host([xs="10"]), :host([xs="11"]), :host([xs="12"]) {
