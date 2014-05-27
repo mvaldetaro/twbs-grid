@@ -3,23 +3,23 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-:host:before,
-:host:after {
+:host(:before),
+:host(:after) {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 :host {
-  display: block;
+  *zoom: 1;
+  display: block !important; /*Bug Fix*/
   margin-left: -15px;
   margin-right: -15px;
 }
-:host:before,
-:host:after {
+:host(:before),
+:host(:after) {
   content: "";
   display: table;
-  line-height: 0;
 }
-:host:after {
+:host(:after) {
   clear: both;
 }

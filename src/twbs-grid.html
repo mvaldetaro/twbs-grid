@@ -4,7 +4,7 @@
 <!-- Define "container" custom element -->
 <polymer-element name="bs-container" noscript>
   <template>
-    <link rel="stylesheet" href="css/bs-container.css" no-shim>
+    <link rel="stylesheet" href="css/bs-container.css">
     <content></content>
   </template>
 </polymer-element>
@@ -12,7 +12,23 @@
 <!-- Define "row" custom element -->
 <polymer-element name="bs-row" noscript>
   <template>
-    <link rel="stylesheet" href="css/bs-row.css" no-shim>
+    <link rel="stylesheet" href="css/bs-row.css">
     <content></content>
   </template>
+</polymer-element>
+
+<!-- Define "col" custom element -->
+<polymer-element name="bs-col" attributes="xs sm md lg">
+  <template>
+    <link rel="stylesheet" href="css/bs-col.css">
+    <content></content>
+  </template>
+  <script>
+    Polymer('bs-col', {
+      xs: "md-1",
+      sm: "md-1",
+      md: "md-1",
+      lg: "md-1"
+    });
+  </script>
 </polymer-element>
