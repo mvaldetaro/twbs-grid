@@ -1,0 +1,169 @@
+:host([push="12"]) {
+  left: 100%;
+}
+:host([push="11"]) {
+  left: 91.66666667%;
+}
+:host([push="10"]) {
+  left: 83.33333333%;
+}
+:host([push="9"]) {
+  left: 75%;
+}
+:host([push="8"]) {
+  left: 66.66666667%;
+}
+:host([push="7"]) {
+  left: 58.33333333%;
+}
+:host([push="6"]) {
+  left: 50%;
+}
+:host([push="5"]) {
+  left: 41.66666667%;
+}
+:host([push="4"]) {
+  left: 33.33333333%;
+}
+:host([push="3"]) {
+  left: 25%;
+}
+:host([push="2"]) {
+  left: 16.66666667%;
+}
+:host([push="1"]) {
+  left: 8.33333333%;
+}
+:host([push="0"]) {
+  left: 0%;
+}
+
+@media (min-width: 768px) {
+
+  :host([push="12"]) {
+    left: 100%;
+  }
+  :host([push="11"]) {
+    left: 91.66666667%;
+  }
+  :host([push="10"]) {
+    left: 83.33333333%;
+  }
+  :host([push="9"]) {
+    left: 75%;
+  }
+  :host([push="8"]) {
+    left: 66.66666667%;
+  }
+  :host([push="7"]) {
+    left: 58.33333333%;
+  }
+  :host([push="6"]) {
+    left: 50%;
+  }
+  :host([push="5"]) {
+    left: 41.66666667%;
+  }
+  :host([push="4"]) {
+    left: 33.33333333%;
+  }
+  :host([push="3"]) {
+    left: 25%;
+  }
+  :host([push="2"]) {
+    left: 16.66666667%;
+  }
+  :host([push="1"]) {
+    left: 8.33333333%;
+  }
+  :host([push="0"]) {
+    left: 0%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  :host([push="12"]) {
+    left: 100%;
+  }
+  :host([push="11"]) {
+    left: 91.66666667%;
+  }
+  :host([push="10"]) {
+    left: 83.33333333%;
+  }
+  :host([push="9"]) {
+    left: 75%;
+  }
+  :host([push="8"]) {
+    left: 66.66666667%;
+  }
+  :host([push="7"]) {
+    left: 58.33333333%;
+  }
+  :host([push="6"]) {
+    left: 50%;
+  }
+  :host([push="5"]) {
+    left: 41.66666667%;
+  }
+  :host([push="4"]) {
+    left: 33.33333333%;
+  }
+  :host([push="3"]) {
+    left: 25%;
+  }
+  :host([push="2"]) {
+    left: 16.66666667%;
+  }
+  :host([push="1"]) {
+    left: 8.33333333%;
+  }
+  :host([push="0"]) {
+    left: 0%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  :host([push="12"]) {
+    left: 100%;
+  }
+  :host([push="11"]) {
+    left: 91.66666667%;
+  }
+  :host([push="10"]) {
+    left: 83.33333333%;
+  }
+  :host([push="9"]) {
+    left: 75%;
+  }
+  :host([push="8"]) {
+    left: 66.66666667%;
+  }
+  :host([push="7"]) {
+    left: 58.33333333%;
+  }
+  :host([push="6"]) {
+    left: 50%;
+  }
+  :host([push="5"]) {
+    left: 41.66666667%;
+  }
+  :host([push="4"]) {
+    left: 33.33333333%;
+  }
+  :host([push="3"]) {
+    left: 25%;
+  }
+  :host([push="2"]) {
+    left: 16.66666667%;
+  }
+  :host([push="1"]) {
+    left: 8.33333333%;
+  }
+  :host([push="0"]) {
+    left: 0%;
+  }
+
+}

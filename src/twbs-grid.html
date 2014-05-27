@@ -18,10 +18,11 @@
 </polymer-element>
 
 <!-- Define "col" custom element -->
-<polymer-element name="bs-col" attributes="xs sm md lg pull">
+<polymer-element name="bs-col" attributes="xs sm md lg pull push">
   <template>
     <link rel="stylesheet" href="css/bs-col.min.css">
     <link rel="stylesheet" href="css/bs-col-pull.min.css">
+    <link rel="stylesheet" href="css/bs-col-push.css">
     <content></content>
   </template>
   <script>
@@ -30,7 +31,8 @@
       sm: "md-1",
       md: "md-1",
       lg: "md-1",
-      pull: "pull-0"
+      pull: "pull-0",
+      push: "push-0"
     });
   </script>
 </polymer-element>
