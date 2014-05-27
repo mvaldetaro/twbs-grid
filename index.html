@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>&lt;web-loader&gt;</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <!-- Importing Web Component's Polyfill -->
+  <script src="bower_components/platform/platform.js"></script>
+
+  <!-- Importing Custom Elements -->
+  <link rel="import" href="src/twbs-grid.html">
+
+  <style>
+    body {
+      margin:0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    header {
+      background: #2ecc71;
+      padding: 50px 0;
+      color: #ffffff;
+    }
+    .content {
+      width: 80%;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 45px;
+      font-weight: 300;
+      margin: 0;
+      padding: 0; }
+    h2 {
+      font-weight: 300;
+    }
+    p {
+      font: normal 14px/23px 'Roboto', sans-serif;
+    }
+    a {
+      color: #4183c4;
+      text-decoration: none;
+    }
+    pre {
+      padding: 10px;
+      display: block;
+      background: #ecf0f1;
+      border-radius: 5px;
+      margin-bottom: 25px;
+    }
+    footer {
+      background: #ecf0f1;
+      padding: 15px ;
+      font-size: 12px;
+      margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://github.com/mvaldetaro/twbs-grid">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+  </a>
+  <header>
+    <div class="content">
+      <h1>&lt;twbs-grid&gt;</h1>
+    </div>
+  </header>
+  <div class="content">
+    <!-- Using Custom Elements -->
+    <h2>Grid system</h2>
+    <p>Grid systems are used for creating page layouts through a series of rows and columns that house your content.</p>
+
+    <h2>Grid Example</h2>
+
+    <row>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+      <col md="1">col md="1"</col>
+    </row>
+
+    <row>
+      <col md="8">col md="8"</col>
+      <col md="4">col md="4"</col>
+    </row>
+
+    <row>
+      <col md="4">col md="4"</col>
+      <col md="4">col md="4"</col>
+      <col md="4">col md="4"</col>
+    </row>
+
+    <row>
+      <col md="6">col md="6"</col>
+      <col md="6">col md="6"</col>
+    </row>
+
+    <pre>
+
+      &lt;row&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
+      &lt;/row&gt;
+
+      &lt;row&gt;
+        &lt;col md="8"&gt;.col-md-8&lt;/col&gt;
+        &lt;col md="4"&gt;.col-md-4&lt;/col&gt;
+      &lt;/row&gt;
+
+      &lt;row&gt;
+        &lt;col md="4"&gt;.col-md-4&lt;/col&gt;
+        &lt;col md="4"&gt;.col-md-4&lt;/col&gt;
+        &lt;col md="4"&gt;.col-md-4&lt;/col&gt;
+      &lt;/row&gt;
+
+      &lt;row&gt;
+        &lt;col md="6"&gt;.col-md-6&lt;/col&gt;
+        &lt;col md="6"&gt;.col-md-6&lt;/col&gt;
+      &lt;row&gt;
+
+    </pre>
+
+    <h2>Grid Options</h2>
+
+
+  </div>
+  <footer>
+    <div class="content">
+      <a href="http://mvaldetaro.mit-license.org/">MIT License</a> (http://mvaldetaro.mit-license.org/) © Magno Valdetaro
+    </div>
+  </footer>
+</body>
+</html>
