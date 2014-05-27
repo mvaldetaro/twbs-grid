@@ -21,7 +21,7 @@
     header {
       background: #2ecc71;
       padding: 50px 0;
-      color: #ffffff;
+      bs-color: #ffffff;
     }
     .content {
       width: 80%;
@@ -39,7 +39,7 @@
       font: normal 14px/23px 'Roboto', sans-serif;
     }
     a {
-      color: #4183c4;
+      bs-color: #4183c4;
       text-decoration: none;
     }
     pre {
@@ -69,73 +69,77 @@
   <div class="content">
     <!-- Using Custom Elements -->
     <h2>Grid system</h2>
-    <p>Grid systems are used for creating page layouts through a series of rows and columns that house your content.</p>
+    <p>Grid systems are used for creating page layouts through a series of bs-rows and bs-columns that house your content.</p>
 
     <h2>Grid Example</h2>
+</div>
 
-    <row>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-      <col md="1">col md="1"</col>
-    </row>
+    <bs-container>
+      <bs-row>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+        <bs-col md="1">bs-col md="1"</bs-col>
+      </bs-row>
 
-    <row>
-      <col md="8">col md="8"</col>
-      <col md="4">col md="4"</col>
-    </row>
+      <bs-row>
+        <bs-col md="8">bs-col md="8"</bs-col>
+        <bs-col md="4">bs-col md="4"</bs-col>
+      </bs-row>
 
-    <row>
-      <col md="4">col md="4"</col>
-      <col md="4">col md="4"</col>
-      <col md="4">col md="4"</col>
-    </row>
+      <bs-row>
+        <bs-col md="4">bs-col md="4"</bs-col>
+        <bs-col md="4">bs-col md="4"</bs-col>
+        <bs-col md="4">bs-col md="4"</bs-col>
+      </bs-row>
 
-    <row>
-      <col md="6">col md="6"</col>
-      <col md="6">col md="6"</col>
-    </row>
+      <bs-row>
+        <bs-col md="6">bs-col md="6"</bs-col>
+        <bs-col md="6">bs-col md="6"</bs-col>
+      </bs-row>
+    </bs-container>
 
+<div class="content">
     <pre>
 
-      &lt;row&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-        &lt;col md="1"&gt;.col-md-1&lt;/col&gt;
-      &lt;/row&gt;
+      &lt;bs-row&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
+      &lt;/bs-row&gt;
 
-      &lt;row&gt;
-        &lt;col md="8"&gt;.col-md-8&lt;/col&gt;
-        &lt;col md="4"&gt;.col-md-4&lt;/col&gt;
-      &lt;/row&gt;
+      &lt;bs-row&gt;
+        &lt;bs-col md="8"&gt;.bs-col-md-8&lt;/bs-col&gt;
+        &lt;bs-col md="4"&gt;.bs-col-md-4&lt;/bs-col&gt;
+      &lt;/bs-row&gt;
 
-      &lt;row&gt;
-        &lt;col md="4"&gt;.col-md-4&lt;/col&gt;
-        &lt;col md="4"&gt;.col-md-4&lt;/col&gt;
-        &lt;col md="4"&gt;.col-md-4&lt;/col&gt;
-      &lt;/row&gt;
+      &lt;bs-row&gt;
+        &lt;bs-col md="4"&gt;.bs-col-md-4&lt;/bs-col&gt;
+        &lt;bs-col md="4"&gt;.bs-col-md-4&lt;/bs-col&gt;
+        &lt;bs-col md="4"&gt;.bs-col-md-4&lt;/bs-col&gt;
+      &lt;/bs-row&gt;
 
-      &lt;row&gt;
-        &lt;col md="6"&gt;.col-md-6&lt;/col&gt;
-        &lt;col md="6"&gt;.col-md-6&lt;/col&gt;
-      &lt;row&gt;
+      &lt;bs-row&gt;
+        &lt;bs-col md="6"&gt;.bs-col-md-6&lt;/bs-col&gt;
+        &lt;bs-col md="6"&gt;.bs-col-md-6&lt;/bs-col&gt;
+      &lt;bs-row&gt;
 
     </pre>
 
