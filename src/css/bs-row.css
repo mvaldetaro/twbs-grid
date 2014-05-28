@@ -1,18 +1,10 @@
 :host {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
   display: block;
-  width: 100%;
-}
-:host(:before),
-:host(:after) {
-  content: " ";
-  display: table;
-  height: 0;
-}
-:host(:after) {
-  clear: both;
+  overflow: auto;
+  zoom: 1;
 }
 :host {
   *zoom: 1;
