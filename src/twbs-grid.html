@@ -4,7 +4,7 @@
 <!-- Define "container" custom element -->
 <polymer-element name="bs-container" noscript>
   <template>
-    <link rel="stylesheet" href="css/bs-container.min.css">
+    <link rel="stylesheet" href="css/bs-container.css">
     <content></content>
   </template>
 </polymer-element>
@@ -18,21 +18,32 @@
 </polymer-element>
 
 <!-- Define "col" custom element -->
-<polymer-element name="bs-col" attributes="xs sm md lg pull push">
+<polymer-element name="bs-col" attributes="xs sm md lg xspull smpull mdpull lgpull xspush smpush mdpush lgpush xsoffset smoffset mdoffset lgoffset">
   <template>
     <link rel="stylesheet" href="css/bs-col.min.css">
     <link rel="stylesheet" href="css/bs-col-pull.min.css">
-    <link rel="stylesheet" href="css/bs-col-push.css">
+    <link rel="stylesheet" href="css/bs-col-push.min.css">
+    <link rel="stylesheet" href="css/bs-col-offset.min.css">
     <content></content>
   </template>
   <script>
     Polymer('bs-col', {
-      xs: "md-1",
-      sm: "md-1",
-      md: "md-1",
-      lg: "md-1",
-      pull: "pull-0",
-      push: "push-0"
+      xs: "12",
+      sm: "12",
+      md: "12",
+      lg: "12",
+      xspull: "0",
+      smpull: "0",
+      mdpull: "0",
+      lgpull: "0",
+      xspush: "0",
+      smpush: "0",
+      mdpush: "0",
+      lgpush: "0",
+      xsoffset: "0",
+      smoffset: "0",
+      mdoffset: "0",
+      lgoffset: "0"
     });
   </script>
 </polymer-element>
