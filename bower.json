@@ -12,7 +12,8 @@
     "grid",
     "polymer",
     "twitter bootstrap",
-    "bootstrap"
+    "bootstrap",
+    "twbs"
   ],
   "license": "MIT",
   "ignore": [
