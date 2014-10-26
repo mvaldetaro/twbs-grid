@@ -1,2 +1,7 @@
 bower_components/
 node_modules/
+
+#OSX
+.DS_Store
+.AppleDouble
+.LSOverride
