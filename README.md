@@ -20,13 +20,13 @@ Or [download as ZIP](https://github.com/mvaldetaro/twbs-grid/archive/master.zip)
 1. Import Web Components' polyfill:
 
   ```html
-<script src="bower_components/platform/platform.js"></script>
+<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
   ```
 
 2. Import Custom Element:
 
   ```html
-<link rel="import" href="bower_components/twbs-grid/src/twbs-grid.html">
+<link rel="import" href="bower_components/twbs-grid/twbs-grid.html">
   ```
 
 3. Start using it!

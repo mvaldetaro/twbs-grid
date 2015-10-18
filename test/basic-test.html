@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../web-component-tester/browser.js"></script>
+
+    <!-- Step 1: import the element to test -->
+    <link rel="import" href="../twbs-grid.html">
+</head>
+
+<body>
+
+    <!-- You can use the document as a place to set up your fixtures. -->
+    <bs-container>
+        <bs-row>
+            <bs-col md="4">Content</bs-col>
+            <bs-col md="4">Content</bs-col>
+            <bs-col md="4">Content</bs-col>
+        </bs-row>
+    </bs-container>
+
+    <script>
+        var bsContainer = document.querySelector('bs-container');
+        var bsRow = document.querySelector('bs-row');
+        var bsCol = document.querySelector('bs-col');
+
+        suite('<bs-container>', function () {
+
+            test('is of type bs-container', function () {
+                assert.equal(bsContainer.is, 'bs-container');
+            });
+
+        });
+
+        suite('<bs-row>', function () {
+
+            test('is of type bs-row', function () {
+                 assert.equal(bsRow.is, 'bs-row');
+            });
+
+        });
+
+        suite('<bs-col>', function () {
+
+            test('md is equal to 4, as we defined it', function () {
+                assert.equal(bsCol.md, '4');
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

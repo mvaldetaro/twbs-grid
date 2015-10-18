@@ -1,0 +1,39 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+An element providing a solution to no problem in particular.
+
+Example:
+
+    <bs-row></bs-row>
+
+@group twbs-grid
+@element bs-row
+@demo demo/index.html
+-->
+<dom-module id="bs-row">
+    <template>
+        <style>
+            :host {
+              -webkit-box-sizing: border-box !important;
+              -moz-box-sizing: border-box !important;
+              box-sizing: border-box !important;
+              display: block;
+              overflow: auto;
+              zoom: 1;
+            }
+            :host {
+              *zoom: 1;
+              margin-left: -15px;
+              margin-right: -15px;
+            }
+        </style>
+        <content></content>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'bs-row'
+    });
+</script>
