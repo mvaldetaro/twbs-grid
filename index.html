@@ -1,171 +1,20 @@
 <!doctype html>
-<html lang="pt-br">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>&lt;twbs-grid&gt;</title>
 
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Importing Web Component's Polyfill -->
-  <script src="bower_components/platform/platform.js"></script>
+  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../iron-component-page/iron-component-page.html">
 
-  <!-- Importing Custom Elements -->
-  <link rel="import" href="twbs-grid.html">
-
-  <style>
-    body {
-      margin:0;
-      padding: 0;
-      font-family: 'Roboto', sans-serif;
-    }
-    header {
-      background: #2ecc71;
-      padding: 50px 0;
-      color: #ffffff;
-    }
-    .content {
-      width: 80%;
-      margin: 0 auto;
-    }
-    h1 {
-      font-size: 45px;
-      font-weight: 300;
-      margin: 0;
-      padding: 0; }
-    h2 {
-      font-weight: 300;
-    }
-    p {
-      font: normal 14px/23px 'Roboto', sans-serif;
-    }
-    a {
-      color: #4183c4;
-      text-decoration: none;
-    }
-    pre {
-      padding: 10px;
-      display: block;
-      background: #ecf0f1;
-      border-radius: 5px;
-      margin-bottom: 25px;
-    }
-    bs-col {
-      text-align: center;
-      background-color: rgba(86,61,124,.15);
-      border: 1px solid rgba(86,61,124,.2);
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    bs-row {
-      margin-bottom: 15px;
-    }
-    footer {
-      background: #ecf0f1;
-      padding: 15px ;
-      font-size: 12px;
-      margin-top: 25px;
-    }
-  </style>
 </head>
-<body>
-  <a href="https://github.com/mvaldetaro/twbs-grid">
-    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
-  </a>
-  <header>
-    <div class="content">
-      <h1>&lt;twbs-grid&gt;</h1>
-    </div>
-  </header>
-  <div class="content">
-    <!-- Using Custom Elements -->
-    <h2>Grid System</h2>
-    <p>Grid systems are used for creating page layouts through a series of bs-rows and bs-columns that house your content.</p>
+<body unresolved>
+  <!-- Note: if the main element for this repository doesn't
+       match the folder name, add a src="&lt;main-component&gt;.html" attribute,
+       where &lt;main-component&gt;.html" is a file that imports all of the
+       components you want documented. -->
+  <iron-component-page  src="twbs-grid.html"></iron-component-page>
 
-    <h2>Grid Example</h2>
-</div>
-
-    <bs-container>
-      <bs-row>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-        <bs-col md="1">bs-col md="1"</bs-col>
-      </bs-row>
-
-      <bs-row>
-        <bs-col md="8">bs-col md="8"</bs-col>
-        <bs-col md="4">bs-col md="4"</bs-col>
-      </bs-row>
-
-      <bs-row>
-        <bs-col md="4">bs-col md="4"</bs-col>
-        <bs-col md="4">bs-col md="4"</bs-col>
-        <bs-col md="4">bs-col md="4"</bs-col>
-      </bs-row>
-
-      <bs-row>
-        <bs-col md="6">bs-col md="6"</bs-col>
-        <bs-col md="6">bs-col md="6"</bs-col>
-      </bs-row>
-
-      <bs-row>
-        <bs-col md="12">bs-col md="12"</bs-col>
-      </bs-row>
-
-    </bs-container>
-<div class="content">
-    <pre>
-
-      &lt;bs-row&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-        &lt;bs-col md="1"&gt;.bs-col-md-1&lt;/bs-col&gt;
-      &lt;/bs-row&gt;
-
-      &lt;bs-row&gt;
-        &lt;bs-col md="8"&gt;.bs-col-md-8&lt;/bs-col&gt;
-        &lt;bs-col md="4"&gt;.bs-col-md-4&lt;/bs-col&gt;
-      &lt;/bs-row&gt;
-
-      &lt;bs-row&gt;
-        &lt;bs-col md="4"&gt;.bs-col-md-4&lt;/bs-col&gt;
-        &lt;bs-col md="4"&gt;.bs-col-md-4&lt;/bs-col&gt;
-        &lt;bs-col md="4"&gt;.bs-col-md-4&lt;/bs-col&gt;
-      &lt;/bs-row&gt;
-
-      &lt;bs-row&gt;
-        &lt;bs-col md="6"&gt;.bs-col-md-6&lt;/bs-col&gt;
-        &lt;bs-col md="6"&gt;.bs-col-md-6&lt;/bs-col&gt;
-      &lt;bs-row&gt;
-
-      &lt;bs-row&gt;
-        &lt;bs-col md="12"&gt;.bs-col-md-12&lt;/bs-col&gt;
-      &lt;bs-row&gt;
-
-    </pre>
-
-  </div>
-  <footer>
-    <div class="content">
-      <a href="http://mvaldetaro.mit-license.org/">MIT License</a> (http://mvaldetaro.mit-license.org/) © Magno Valdetaro
-    </div>
-  </footer>
 </body>
 </html>

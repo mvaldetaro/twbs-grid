@@ -1,29 +1,35 @@
 {
-  "name": "twbs-grid",
-  "homepage": "https://github.com/mvaldetaro/web-loader",
-  "authors": [
-    "Magno Valdetaro <mvaldetaro@gmail.com>",
-    "Alfonso Aguilar <laltfuns@gmail.com>"
-  ],
-  "description": "The Bootstrap Grid System Web Component",
-  "main": "twbs-grid.html",
-  "keywords": [
-    "web-components",
-    "grid",
-    "polymer",
-    "twitter bootstrap",
-    "bootstrap",
-    "twbs"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "polymer": "Polymer/polymer#^0.4.0"
-  }
+    "name": "twbs-grid",
+    "homepage": "https://github.com/mvaldetaro/web-loader",
+    "authors": [
+        "Magno Valdetaro <mvaldetaro@gmail.com>",
+        "Alfonso Aguilar <laltfuns@gmail.com>",
+        "Jonas Lindenskov Nielsen <jonas@jonasln.dk>"
+    ],
+    "description": "The Bootstrap Grid System Web Component",
+    "main": "twbs-grid.html",
+    "keywords": [
+        "web-components",
+        "grid",
+        "polymer",
+        "twitter bootstrap",
+        "bootstrap",
+        "twbs"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "/.*",
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "/test/",
+        "/tests/"
+    ],
+    "dependencies": {
+        "polymer": "Polymer/polymer#^1.1.0"
+    },
+    "devDependencies": {
+        "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+        "web-component-tester": "*"
+    }
 }

@@ -1,0 +1,68 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+An element providing a solution to no problem in particular.
+
+Example:
+
+    <bs-container></bs-container>
+
+@group twbs-grid
+@element bs-container
+@demo demo/index.html
+-->
+<dom-module id="bs-container">
+    <style>
+        :host {
+            -webkit-box-sizing: border-box !important;
+            -moz-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+            display: block;
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        :host(:before),
+        :host(:after) {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            content: "";
+            display: table;
+        }
+        
+        :host(:after) {
+            clear: both;
+        }
+        
+        @media (min-width: 768px) {
+            :host {
+                width: 750px;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            :host {
+                width: 970px;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            :host {
+                width: 1170px;
+            }
+        }
+    </style>
+    <template>
+        <content></content>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'bs-container'
+    });
+</script>
